@@ -1,0 +1,33 @@
+.Body-container {
+    border-radius: 3px;
+    margin-top: 20px;
+    margin-left: 170px;
+    height: 851.86px;
+    width: 472px;
+    background-color: aqua;
+}
+
+.top-header {
+    width:100%;
+    height:48px;
+    border-radius: 3px;
+    border:1px solid #DBDBDB;
+    background-color: white;
+}
+
+.img-container {
+    width:100%;
+    height:585.86px;
+    border: 1px solid #DBDBDB;
+    border-top:none !important;
+    background-color: white;
+    position: relative;
+}
+
+.img-footer {
+    width: 100%;
+    height: 184px;
+    background-color: white;
+    border:1px solid #DBDBDB;
+    border-top: none !important;
+}

@@ -1,0 +1,19 @@
+.Story-Section {
+    width:470px;
+    border: 1px solid #DBDBDB;
+    border-radius: 3px;
+    height:119px;
+    background-color: white;
+    margin-left: 170px;
+    margin-top: 30px;
+}
+
+.stories-container {
+    display: flex;
+    overflow:hidden;
+    width:100%;
+    background-color: aqua;
+    margin-top:20px;
+    height:80px;
+}
+

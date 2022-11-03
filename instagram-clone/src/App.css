@@ -1,0 +1,45 @@
+* {
+  margin: 0px;
+  padding:0px;
+}
+
+.big-container {
+  display: inline-block;
+  position: relative;
+  padding:20px 20px 10px 10px;
+  border-right: 1px solid #DBDBDB;
+  background-color: white;
+}
+
+.image-container {
+  background-color: white;
+  margin:0px 0px 19px;
+  padding:25px 12px 2px;
+  width:220px;
+  height:60px;
+}
+.logo {
+  height:36px;
+  width:196px;
+}
+
+img {
+  object-fit: cover;
+  width: 103px;
+  height:29px;
+}
+
+.right-sidebar {
+  display:inline-block;
+  position: absolute;
+  margin-top: -10px;
+  height: 100vh;
+  background-color: red;
+}
+
+.inner-rightBar {
+  display:flex;
+  
+  background-color: #FAFAFA;
+
+}
