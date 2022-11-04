@@ -10,6 +10,7 @@ import StorySection from './components/RightSidebar/StorySection/StorySection';
 import { useEffect, useState } from 'react';
 import BodyContainer from './components/RightSidebar/BodyContainer/BodyContainer';
 import RightMostBar from './components/RightSidebar/RightMostBar/RightMostBar';
+import UseContextApi from './Hooks/UseContextApi';
 
 
 
@@ -36,7 +37,7 @@ function App() {
   
   
   return (
-    <>
+    <div className='instagram'>
     {leftBar &&
     <div className='big-container'>
       <div className='image-container'>
@@ -54,15 +55,17 @@ function App() {
     <div className='right-sidebar'>
       <div className='inner-rightBar'>
         <div>
-        <StorySection />
-        <BodyContainer />
+        <UseContextApi>
+          <StorySection />
+          <BodyContainer />
+        </UseContextApi>
         </div>
         <div>
           <RightMostBar />
         </div>
       </div>
     </div>
-    </>
+    </div>
 
   );
 }
